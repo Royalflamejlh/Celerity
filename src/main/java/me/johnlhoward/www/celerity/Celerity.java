@@ -37,6 +37,7 @@ public class Celerity {
     @Subscribe
     public void onProxyInitialization(ProxyInitializeEvent event) {
         logger.info("Initializing Celerity");
+        logger.warn("Celerity is an ALPHA plugin and should not be used in production!");
 
         config = new Config(dataDirectory, logger);
 

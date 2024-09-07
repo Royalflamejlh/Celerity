@@ -1,16 +1,17 @@
-# Celerity - [BETA]
+# Celerity: Geo-Based Server Redirection
 
 # USE AT YOUR OWN RISK (NOT IN PRODUCTION)
 
 ## About
-The goal of this plugin is to be able to redirect user to different proxies depending on their location.
+This plugin allows players to connect to the closest server based on their geographic location. By simply entering myserver.com, players are automatically redirected to the nearest server without the need for proxying their connection.
 
-Imagine you have a two network setup:
+Example Scenario:
 
-Server A (east.myserver.com) in NY and Server B (west.myserver.com) in LA
+Server A (east.myserver.com) located in New York.
 
-This plugin allows for all players to type in myserver.com and connect to whichever server is closer WITHOUT
-proxying their connection.
+Server B (west.myserver.com) located in Los Angeles.
+
+Players who connect through myserver.com will be redirected to either Server A or Server B, depending on which is geographically closer.
 
 ## Road Map
 
