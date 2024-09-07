@@ -1,4 +1,4 @@
-# Celerity - [BETA]
+# Celerity - [ALPHA]
 
 # USE AT YOUR OWN RISK (NOT IN PRODUCTION)
 
